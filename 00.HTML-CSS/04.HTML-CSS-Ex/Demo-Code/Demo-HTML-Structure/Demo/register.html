@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        .form-element {
+            margin-bottom: 20px;
+        }
+
+        .form-element input {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Create your account</h1>
+
+        <form action="/account/register" method="POST">
+            <div class="form-element">
+                <label for="first-name">First Name:</label>
+                <input id="first-name" placeholder="First Name" type="text" name="FirstName" required autofocus>
+            </div>
+            <br />
+            <br />
+            <label for="last-name">Last Name:</label>
+            <br />
+            <input id="last-name" type="text" name="" required>
+            <br />
+            <br />
+            <label for="age">Age (18 - 100):</label>
+            <br />
+            <input id="age" placeholder="E.g 29" type="number" name="Age" min="18" max="100" required>
+            <br />
+            <br />
+            <label for="email">Email:</label>
+            <br />
+            <input id="email" type="email" name="Email" required>
+            <br />
+            <br />
+            <label for="password">Password:</label>
+            <br />
+            <input id="password" type="password" name="Password" required>
+            <br />
+            <br />
+            <label for="city">City:</label>
+            <br />
+            <input id="city" type="search" name="City" required>
+            <br />
+            <br />
+            <label for="gender">Gender:</label>
+            <br />
+            Male:<input id="gender-male" type="radio" name="Gender">
+            Female:<input id="gender-female" type="radio" name="Gender">
+            Other:<input id="gender-other" type="radio" name="Gender">
+            <br />
+            <br />
+            <label for="updates">Sign me up for newsletter:</label>
+            <br />
+            <input id="updates" type="checkbox" name="Newsletter">
+            <br />
+            <br />
+            <label for="terms">Yes I have read the terms of agreement</label>
+            <br />
+            <input id="terms" type="checkbox" name="TermsOfAgreement" required>
+            <br />
+            <br />
+            <label for="subscription">Choose subscription</label>
+            <br />
+            <select id="subscription" name="Subscription">
+                <option value="yearly">Yearly</option>
+                <option value="monthly">Monthly</option>
+                <option value="daily">Daily</option>
+            </select>
+            <br />
+            <br />
+            <label for="comment">Additional info:</label>
+            <br />
+            <textarea rows="10" cols="30" id="comment"></textarea>
+            <br />
+            <br />
+            <button>Register</button>
+        </form>
+    </main>
+</body>
+</html>

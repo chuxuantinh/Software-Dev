@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Roboto;
+    src: url("./fonts/Roboto/Roboto-Regular.woff2") format("woff2"),
+         url("./fonts/Roboto/Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("./fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+}
+
+
+html {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    font-family: Roboto, serif;
+}
+
+h1 {
+    font-family: "Roboto-Bold";
+    font-size: 2.2rem;
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+button {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button[disabled] {
+    cursor: not-allowed;
+}
+
+li {
+    text-transform: lowercase;
+    color: #FF5733;
+}
+
+p {
+    line-height: 1.5;
+    letter-spacing: 0.7px;
+}
+
+.special-paragraph {
+    text-align: center;
+    border: 2px solid blueviolet;
+    padding: 10px;
+    background-color: rgba(255, 0, 255, 0.034);
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    text-shadow: 0px 10px 17px #1f1f20;
+}
+
+a:focus {
+    outline: 1px solid blue;
+}
+
+.strike-that {
+    text-decoration: line-through;
+    color: red;
+    font-weight: bold;
+}
+
+.first-p {
+    text-indent: 40px;
+}
+
+.abreviated {
+    border: 1px solid red;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.break {
+    max-width: 50px;
+    border: 1px solid blue;
+    word-break: break-all;
+}

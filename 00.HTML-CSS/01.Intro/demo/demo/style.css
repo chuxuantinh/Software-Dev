@@ -1,0 +1,35 @@
+button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+#blue-button {
+    background-color: blue;
+    color: white;
+}
+
+#blue-button.big-button:hover {
+    border: 1px solid #000;
+}
+
+button:hover {
+    box-shadow: 0 0 4px #000;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+#paragraph-after-button {
+    margin-top: 40px;
+}
+
+.big-button {
+    padding: 10px 20px;
+}
+
+p.right {
+    text-align: right;
+}

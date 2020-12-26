@@ -1,0 +1,13 @@
+*.exe
+*.pdb
+bin
+obj
+*.txt
+*.zip
+.vs
+*.docx
+*.pptx
+*.png
+*.jpg
+*.jpeg
+*.gif

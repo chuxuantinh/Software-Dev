@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01Shapes", "P01Shapes\P01Shapes.csproj", "{424FC32D-1038-4D5D-BFA2-EF9924EAB708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02Cars", "P02Cars\P02Cars.csproj", "{FF99B724-5312-4935-9953-FAA2ACB8C41F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02Cars2", "P02Cars2\P02Cars2.csproj", "{77914A39-DB69-4FE2-AE44-76B78B092A61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{424FC32D-1038-4D5D-BFA2-EF9924EAB708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424FC32D-1038-4D5D-BFA2-EF9924EAB708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424FC32D-1038-4D5D-BFA2-EF9924EAB708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424FC32D-1038-4D5D-BFA2-EF9924EAB708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF99B724-5312-4935-9953-FAA2ACB8C41F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF99B724-5312-4935-9953-FAA2ACB8C41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF99B724-5312-4935-9953-FAA2ACB8C41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF99B724-5312-4935-9953-FAA2ACB8C41F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77914A39-DB69-4FE2-AE44-76B78B092A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77914A39-DB69-4FE2-AE44-76B78B092A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77914A39-DB69-4FE2-AE44-76B78B092A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77914A39-DB69-4FE2-AE44-76B78B092A61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {845A63EB-B540-430F-9D86-21669C8534BC}
+	EndGlobalSection
+EndGlobal

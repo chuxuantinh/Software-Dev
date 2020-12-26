@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01CableNetwork", "P01CableNetwork\P01CableNetwork.csproj", "{73F0BA96-5284-460D-AE07-65D2B9B21AE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03MostReliablePath", "P03MostReliablePath\P03MostReliablePath.csproj", "{3B5EF21C-1463-49F6-A1F9-63D71BC62900}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73F0BA96-5284-460D-AE07-65D2B9B21AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F0BA96-5284-460D-AE07-65D2B9B21AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F0BA96-5284-460D-AE07-65D2B9B21AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F0BA96-5284-460D-AE07-65D2B9B21AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B5EF21C-1463-49F6-A1F9-63D71BC62900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5EF21C-1463-49F6-A1F9-63D71BC62900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5EF21C-1463-49F6-A1F9-63D71BC62900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5EF21C-1463-49F6-A1F9-63D71BC62900}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D160C8F-FCA1-48E0-B053-7AB60B6F3822}
+	EndGlobalSection
+EndGlobal

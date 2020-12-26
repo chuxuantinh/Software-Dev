@@ -1,0 +1,31 @@
+article p {
+    background: yellow
+}
+
+#red-article {
+    background: red;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+input[type="submit"] {
+    background: red;
+}
+
+input[type="submit"]:hover {
+    background: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+p:nth-child(1) {
+    background: red;
+}
